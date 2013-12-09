@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ducky/Ducky.iml" filepath="$PROJECT_DIR$/Ducky/Ducky.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ducky-android/Ducky-android.iml" filepath="$PROJECT_DIR$/Ducky-android/Ducky-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ducky-desktop/Ducky-desktop.iml" filepath="$PROJECT_DIR$/Ducky-desktop/Ducky-desktop.iml" />
+    </modules>
+  </component>
+</project>
+

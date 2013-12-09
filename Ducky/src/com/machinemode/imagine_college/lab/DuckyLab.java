@@ -21,7 +21,7 @@ public class DuckyLab implements ApplicationListener
     private Ducky ducky;
     private List<Ducky> duckyList;
     private World world;
-    private Vector2 gravity = new Vector2(0f, 0f);
+    private Vector2 gravity = new Vector2(0f, -10f);
     private Box2DDebugRenderer debugRenderer;
 
     @Override

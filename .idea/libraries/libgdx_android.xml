@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="libgdx-android">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Ducky-android/libs/gdx-backend-android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Ducky-android/libs/gdx-backend-android-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
