@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b0f74a61-3d88-4d09-ae8d-107096c05fee" name="Default" comment="" />
     <ignored path="Ducky.iws" />
@@ -67,19 +72,30 @@
       <split-first>
         <leaf>
           <file leaf-file-name="BoxWorld.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Ducky/src/com/machinemode/imagine_college/lab/BoxWorld.java">
+            <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/BoxWorld.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="2720">
+                <state line="34" column="12" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="2907">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DuckyLab.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Ducky/src/com/machinemode/imagine_college/lab/DuckyLab.java">
+          <file leaf-file-name="DuckyLab.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/DuckyLab.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="30" selection-start="618" selection-end="618" vertical-scroll-proportion="0.18979266" vertical-offset="0" max-vertical-offset="1700">
+                <state line="0" column="33" selection-start="8" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Ducky-android/src/com/halfbeard/balljuggler/MainActivity.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="42" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -88,11 +104,34 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Ducky.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Ducky/src/com/machinemode/imagine_college/lab/Ducky.java">
+          <file leaf-file-name="Ducky.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/Ducky.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="56" column="0" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.90590113" vertical-offset="163" max-vertical-offset="1190">
+                <state line="20" column="76" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1190">
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Ducky-android/AndroidManifest.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="23" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+                  <folding>
+                    <element signature="e#367#385#0" expanded="true" />
+                    <element signature="e#498#516#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Ducky-desktop/src/com/halfbeard/balljuggler/Main.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.47145188" vertical-offset="0" max-vertical-offset="613">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -110,14 +149,23 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Ducky/src/com/machinemode/imagine_college/lab/DuckyLab.java" />
+        <option value="$PROJECT_DIR$/Ducky/src/com/machinemode/imagine_college/halfbeard/Ducky.java" />
+        <option value="$PROJECT_DIR$/Ducky/src/com/machinemode/imagine_college/balljuggler/Ducky.java" />
+        <option value="$PROJECT_DIR$/Ducky/src/com/machinemode/imagine_college/balljuggler/DuckyLab.java" />
+        <option value="$PROJECT_DIR$/Ducky-android/src/com/machinemode/imagine_college/halfbeard/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Ducky-android/src/balljuggler/DuckyLab.java" />
+        <option value="$PROJECT_DIR$/Ducky-android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Ducky-desktop/src/com/halfbeard/balljuggler/Main.java" />
+        <option value="$PROJECT_DIR$/Ducky-android/src/balljuggler/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Ducky-android/src/com/halfbeard/balljuggler/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -192,7 +240,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
+              <option name="myItemId" value="balljuggler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -220,6 +268,14 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Ducky/src/com" />
+    <property name="FullScreen" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="nexus4" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vasily.mccausland\Documents\GitHub\Ducky\Ducky-android\src" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Ducky-desktop">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -329,7 +385,6 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -348,7 +403,6 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -365,7 +419,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Ducky-desktop" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.machinemode.imagine_college.lab.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.halfbeard.balljuggler.Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Ducky-android/assets" />
@@ -419,34 +473,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987553" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32987553" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20887446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30912864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30844155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -466,24 +520,109 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ducky/src/com/machinemode/imagine_college/lab/Ducky.java">
+    <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/BoxWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.90590113" vertical-offset="163" max-vertical-offset="1190">
+        <state line="34" column="12" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2907">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ducky/src/com/machinemode/imagine_college/lab/BoxWorld.java">
+    <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/DuckyLab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="2720">
+        <state line="0" column="33" selection-start="8" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ducky/src/com/machinemode/imagine_college/lab/DuckyLab.java">
+    <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/Ducky.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="618" selection-end="618" vertical-scroll-proportion="0.18979266" vertical-offset="0" max-vertical-offset="1700">
+        <state line="20" column="76" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1411">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ducky-android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="49" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="493">
+          <folding>
+            <element signature="e#367#385#0" expanded="true" />
+            <element signature="e#498#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/BoxWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/DuckyLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="30" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/Ducky.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/BoxWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="12" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="2907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ducky-android/assets/duck_open.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/Ducky.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="76" selection-start="858" selection-end="858" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ducky-android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding>
+            <element signature="e#367#385#0" expanded="true" />
+            <element signature="e#498#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ducky-android/src/com/halfbeard/balljuggler/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="42" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/DuckyLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="33" selection-start="8" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ducky-desktop/src/com/halfbeard/balljuggler/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.47145188" vertical-offset="0" max-vertical-offset="613">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
