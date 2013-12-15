@@ -52,14 +52,6 @@ public class DuckyLab extends Game
         batch = new SpriteBatch();
 
         ducky = new Ducky(world, 0, 5);
-        
-        duckyList = new ArrayList<Ducky>();
-
-        for( int i = 0; i < 1; i++ )
-        {
-            //ducky = new Ducky(world, 0, 0);
-        }
-
     }
 
     @Override
@@ -78,7 +70,6 @@ public class DuckyLab extends Game
         // camera.update();
         batch.setProjectionMatrix(camera.combined);
         batch.begin();
-        ducky.render(batch);
 
         float height = Gdx.graphics.getHeight();
 
@@ -115,7 +106,7 @@ public class DuckyLab extends Game
             
         }
 
-        debugRenderer.render(world, camera.combined);
+        //debugRenderer.render(world, camera.combined);
         world.step(1 / 45f, 6, 2);
     }
 

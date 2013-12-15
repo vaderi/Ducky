@@ -16,11 +16,15 @@ public class GameOverScreen implements Screen
     private Texture gameOver;
     private Game myGame;
     private int finalScore;
+    public  int WIDTH;
+    public  int HEIGHT;
 
     public GameOverScreen(Game game, int score)
     {
         myGame = game;
         finalScore = score;
+        WIDTH = Gdx.graphics.getWidth();
+        HEIGHT = Gdx.graphics.getHeight();
     }
 
     @Override
@@ -29,7 +33,7 @@ public class GameOverScreen implements Screen
         Gdx.gl.glClearColor(0, 0, 0, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         spriteBatch.begin();
-        spriteBatch.draw(gameOver, 0, 0);
+        spriteBatch.draw(gameOver, 0, 0, WIDTH, HEIGHT);
         spriteBatch.end();
 
         if(Gdx.input.justTouched())
@@ -46,7 +50,7 @@ public class GameOverScreen implements Screen
     public void show()
     {
         spriteBatch = new SpriteBatch();
-        gameOver = new Texture(Gdx.files.internal("gameOver.gif"));
+        gameOver = new Texture(Gdx.files.internal("gameover.png"));
     }
 
     @Override

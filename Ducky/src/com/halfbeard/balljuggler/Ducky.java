@@ -19,7 +19,7 @@ import com.badlogic.gdx.physics.box2d.World;
 
 public class Ducky
 {
-    private Texture texture = new Texture(Gdx.files.internal("duck_open.png"));
+    private Texture texture = new Texture(Gdx.files.internal("herpderp.png"));
     private Sound squeakSound = Gdx.audio.newSound(Gdx.files.internal("squeak.wav"));
     public Body body;
     public Float radius;
