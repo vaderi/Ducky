@@ -90,10 +90,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.46783218">
       <split-first>
         <leaf>
-          <file leaf-file-name="DuckyLab.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="DuckyLab.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/DuckyLab.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="0" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="2601">
+                <state line="90" column="32" selection-start="2382" selection-end="2382" vertical-scroll-proportion="0.5473684" vertical-offset="1270" max-vertical-offset="2601">
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#3568#3569#0" expanded="true" />
@@ -116,10 +116,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="StartScreen.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="StartScreen.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/StartScreen.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="32" selection-start="855" selection-end="855" vertical-scroll-proportion="0.9057377" vertical-offset="102" max-vertical-offset="1377">
+                <state line="28" column="5" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1377">
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -156,7 +156,7 @@
           <file leaf-file-name="Ducky.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/Ducky.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="44" column="0" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.8210526" vertical-offset="103" max-vertical-offset="1394">
+                <state line="88" column="31" selection-start="2708" selection-end="2719" vertical-scroll-proportion="0.6778947" vertical-offset="919" max-vertical-offset="1394">
                   <folding />
                 </state>
               </provider>
@@ -731,19 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/DuckyLab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="2601">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3568#3569#0" expanded="true" />
-            <element signature="e#3596#3597#0" expanded="true" />
-            <element signature="e#3635#3636#0" expanded="true" />
-            <element signature="e#3666#3667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/ballGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
@@ -753,18 +740,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/StartScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="5" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1377">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/Ducky.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.8210526" vertical-offset="103" max-vertical-offset="1394">
+        <state line="88" column="31" selection-start="2708" selection-end="2719" vertical-scroll-proportion="0.6778947" vertical-offset="919" max-vertical-offset="1394">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/StartScreen.java">
+    <entry file="file://$PROJECT_DIR$/Ducky/src/com/halfbeard/balljuggler/DuckyLab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="32" selection-start="855" selection-end="855" vertical-scroll-proportion="0.9057377" vertical-offset="102" max-vertical-offset="1377">
+        <state line="90" column="32" selection-start="2382" selection-end="2382" vertical-scroll-proportion="0.5473684" vertical-offset="1270" max-vertical-offset="2601">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3568#3569#0" expanded="true" />
+            <element signature="e#3596#3597#0" expanded="true" />
+            <element signature="e#3635#3636#0" expanded="true" />
+            <element signature="e#3666#3667#0" expanded="true" />
           </folding>
         </state>
       </provider>
