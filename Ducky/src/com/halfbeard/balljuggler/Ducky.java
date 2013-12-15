@@ -8,6 +8,8 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.MathUtils;
+import com.badlogic.gdx.math.Vector2;
+import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.physics.box2d.BodyDef;
 import com.badlogic.gdx.physics.box2d.CircleShape;
@@ -19,8 +21,11 @@ public class Ducky
 {
     private Texture texture = new Texture(Gdx.files.internal("duck_open.png"));
     private Sound squeakSound = Gdx.audio.newSound(Gdx.files.internal("squeak.wav"));
-    private Body body;
+    public Body body;
+    public Float radius;
     private Sprite sprite;
+    public double xboost;
+    public double yboost;
 
     public Ducky(World world, float x, float y)
     {
@@ -38,14 +43,16 @@ public class Ducky
 
         body = world.createBody(bodyDef);
 
+        radius = sprite.getWidth() / 2;
+
         CircleShape circle = new CircleShape();
-        circle.setRadius(sprite.getWidth() / 2);
+        circle.setRadius(radius);
 
         FixtureDef fixtureDef = new FixtureDef();
         fixtureDef.shape = circle;
         fixtureDef.density = 0.5f;
-        fixtureDef.friction = 0.4f;
-        fixtureDef.restitution = 0.0f;
+        fixtureDef.friction = 0.0f;
+        fixtureDef.restitution = 1.0f;
         body.createFixture(fixtureDef);
 
         circle.dispose();
@@ -54,7 +61,14 @@ public class Ducky
 
     public void onCollision()
     {
+    }
 
+    public void bounce( Vector3 push )
+    {
+        xboost = Math.random() * 10;
+        xboost -= 5;
+        yboost = Math.random() * 10;
+        body.setLinearVelocity( (float)xboost, (float)yboost );
     }
     
     public void squeak()
